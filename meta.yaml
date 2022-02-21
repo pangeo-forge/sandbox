@@ -1,0 +1,23 @@
+title: "Title for your recipe"
+description: "Long description for your recipe"
+pangeo_forge_version: "0.8.0"
+recipes:
+  - id: identifier-for-your-recipe
+    # this is a little confusing, explain well here
+    object: "recipe:recipe"
+provenance:
+  providers:
+    # Populate these fields with information about your data provider
+    - name: "NOAA NCEI"
+      description: "National Oceanographic & Atmospheric Administration National Centers for Environmental Information"
+      roles:
+        - producer
+        - licensor
+      url: https://www.ncdc.noaa.gov/oisst
+  license: "CC-BY-4.0"
+maintainers:
+  - name: "Your Full Name"
+    orcid: "Your Orchid ID"
+    github: your-github-username
+bakery:
+  id: "columbia-staging"  # must come from a valid list of bakeries
