@@ -1,3 +1,3 @@
-FROM python:3.9-slim-bullseye
+FROM pangeo/pangeo-notebook:2022.02.04
 
-RUN pip install pangeo-forge-recipes jupytext rich
+RUN conda run -n notebook pip install "pangeo-forge-recipes==0.8.0" jupytext rich
