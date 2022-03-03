@@ -1,3 +1,3 @@
-FROM pangeo/pangeo-notebook:2022.02.04
+FROM pangeo/pangeo-notebook:2021.12.02
 
 RUN conda install -n notebook -c conda-forge pangeo-forge-recipes jupytext rich
