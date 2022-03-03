@@ -1,23 +1,38 @@
+# Name for dataset. User chosen.
 title: "Title for your recipe"
-description: "Long description for your recipe"
+# Description of dataset.  User chosen, roughly 1 sentance in length.
+description: "Long description for your recipe" 
+# Version of pangeo_forge_recipes library that was used 
 pangeo_forge_version: "0.8.0"
+# This section is most detailed for a recipe module that has multiple recipe objects in it.
+# Many recipe modules will have just 1 recipe, and this section will look most like this
 recipes:
+  # User chosen name for recipe. Likely similiar to dataset name, ~25 characters in length
   - id: identifier-for-your-recipe
-    # this is a little confusing, explain well here
+    # Describes where the recipe instance is using <filename>:<object_name>
+    # <filename> is name of .py file where the Python recipe object is defined
+    # <object_name> is the name of the python instance of the recipe object
+    # recipe = XarrayZarrRecipe(...) in recipe.py -> object: recipe:recipe
     object: "recipe:recipe"
 provenance:
+  # Data provider object.  Follow STAC spec.
+  # https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md#provider-object
   providers:
-    # Populate these fields with information about your data provider
     - name: "NOAA NCEI"
       description: "National Oceanographic & Atmospheric Administration National Centers for Environmental Information"
       roles:
         - producer
         - licensor
       url: https://www.ncdc.noaa.gov/oisst
+  # This is a required field for provider. Follow STAC spec
+  # https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md#license
   license: "CC-BY-4.0"
 maintainers:
+  # Information about recipe creator. name and github are required
   - name: "Your Full Name"
     orcid: "Your Orchid ID"
     github: your-github-username
+# set of cloud infrastructure that bakery will run on. Available bakeries can be found on the
+# Pangeo Forge website pangeo-forge.org
 bakery:
-  id: "columbia-staging"  # must come from a valid list of bakeries
+  id: "pangeo-ldeo-nsf-earthcube"

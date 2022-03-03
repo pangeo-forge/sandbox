@@ -4,10 +4,6 @@
 #   1. This file is designed to be run on Binder in a purpose-built JupyterHub environment.
 #      If you are _not_ reading this there, please go to https://github.com/pangeo-forge/sandbox
 #      and click the _**launch binder**_ link in the README before proceeding.
-#   2. If you are already on Binder, and reading this document as plain text, please right-click the
-#      `recipe.py` file in the file browser on the lefthand side of the screen, and select
-#      **Open With > Notebook**.
-#   3. Awesome! You should now be reading this file as a Jupyter Notebook.
 #
 # > Note: If you're having trouble with any of the above steps, check to see if your issue is already listed
 # > on https://github.com/pangeo-forge/sandbox/issues. If not, please open a new Issue describing your problem.
@@ -22,7 +18,6 @@ import pandas as pd
 
 from pangeo_forge_recipes.patterns import ConcatDim, FilePattern, MergeDim
 from pangeo_forge_recipes.recipes import XarrayZarrRecipe
-
 
 # -
 
