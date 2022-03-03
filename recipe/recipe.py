@@ -1,11 +1,19 @@
 # # WELCOME!
 # We're so glad you've found the Pangeo Forge Sandbox, a place to design your own Pangeo Forge Recipe.
 #
-#   1. This file is designed to be run on Binder in a purpose-built JupyterHub environment.
-#      If you are _not_ reading this there, please go to https://github.com/pangeo-forge/sandbox
-#      and click the _**launch binder**_ link in the README before proceeding.
+# This file contains some example code that provides some example structures for building a 
+# recipe. It's a way to see all the steps of a recipe in a single file.
+# If you are looking for a step by step explanation of each of the sections below, check out 
+# [the introduction tutorial](https://pangeo-forge.readthedocs.io/en/latest/introduction_tutorial/index.html). 
+# The [recipe user guide](https://pangeo-forge.readthedocs.io/en/latest/recipe_user_guide/index.html) is a also a great resource
+# for more in depth explanations of objects.
+# 
+# ### Running
+# This file is designed to be run on Binder in a purpose-built JupyterHub environment.
+# If you are _not_ reading this there, please go to https://github.com/pangeo-forge/sandbox
+# and click the _**launch binder**_ link in the README before proceeding.
 #
-# > Note: If you're having trouble with any of the above steps, check to see if your issue is already listed
+# > Note: If you're having trouble with the environment, check to see if your issue is already listed
 # > on https://github.com/pangeo-forge/sandbox/issues. If not, please open a new Issue describing your problem.
 
 # ## STEP 1: IMPORTS
