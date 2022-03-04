@@ -119,6 +119,7 @@ recipe = XarrayZarrRecipe(
 
 # # NEXT STEPS
 #
-#   1. Customize your `meta.yaml`. A template is provided in the file browser on the lefthand side of your screen.
+#   1. Customize your `meta.yaml`. A template is provided in the file browser on the righthand side of your screen.
 #   2. Submit your `recipe.py` and `meta.yaml` together as a Pull Request (PR) to https://github.com/pangeo-forge/staged-recipes
-#      For more detail on how to do this, please refer to the README located in https://github.com/pangeo-forge/sandbox.
+#      For more detail on how to do this, please refer part 3 of the 
+#      introduction tutorial https://pangeo-forge.readthedocs.io/en/latest/introduction_tutorial/intro_tutorial_part3.html
