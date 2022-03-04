@@ -4,8 +4,9 @@ title: "Title for your recipe"
 description: "Long description for your recipe" 
 # Version of pangeo_forge_recipes library that was used 
 pangeo_forge_version: "0.8.0"
-# This section is most detailed for a recipe module that has multiple recipe objects in it.
-# Many recipe modules will have just 1 recipe, and this section will look most like this
+# The recipes section tells Pangeo Cloud where to find the recipes within your PR.
+# Many recipe PRs will have just 1 recipe, in which case this section will look similar to the example below.
+# If your PR contains multiple recipes, you may add additional elements to the list below.
 recipes:
   # User chosen name for recipe. Likely similiar to dataset name, ~25 characters in length
   - id: identifier-for-your-recipe
