@@ -11,7 +11,7 @@
 # ### Running
 # This file is designed to be run on Binder in a purpose-built JupyterHub environment.
 # If you are _not_ reading this there, please go to https://github.com/pangeo-forge/sandbox
-# and click the _**launch binder**_ link in the README before proceeding.
+# and click the _**sandbox workspace**_ link in the README before proceeding.
 #
 # > Note: If you're having trouble with the environment, check to see if your issue is already listed
 # > on https://github.com/pangeo-forge/sandbox/issues. If not, please open a new Issue describing your problem.
