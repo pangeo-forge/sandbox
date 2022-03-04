@@ -1,6 +1,6 @@
 # Name for dataset. User chosen.
 title: "Title for your recipe"
-# Description of dataset.  User chosen, roughly 1 sentance in length.
+# Description of dataset.  User chosen, roughly 1 sentence in length.
 description: "Long description for your recipe" 
 # Version of pangeo_forge_recipes library that was used 
 pangeo_forge_version: "0.8.2"
