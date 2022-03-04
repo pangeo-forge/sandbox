@@ -1,15 +1,19 @@
 # # WELCOME!
 # We're so glad you've found the Pangeo Forge Sandbox, a place to design your own Pangeo Forge Recipe.
 #
-#   1. This file is designed to be run on Binder in a purpose-built JupyterHub environment.
-#      If you are _not_ reading this there, please go to https://github.com/pangeo-forge/sandbox
-#      and click the _**launch binder**_ link in the README before proceeding.
-#   2. If you are already on Binder, and reading this document as plain text, please right-click the
-#      `recipe.py` file in the file browser on the lefthand side of the screen, and select
-#      **Open With > Notebook**.
-#   3. Awesome! You should now be reading this file as a Jupyter Notebook.
+# This file contains some example code that provides some example structures for building a 
+# recipe. It's a way to see all the steps of a recipe in a single file.
+# If you are looking for a step by step explanation of each of the sections below, check out 
+# [the introduction tutorial](https://pangeo-forge.readthedocs.io/en/latest/introduction_tutorial/index.html). 
+# The [recipe user guide](https://pangeo-forge.readthedocs.io/en/latest/recipe_user_guide/index.html) is a also a great resource
+# for more in depth explanations of objects.
+# 
+# ### Running
+# This file is designed to be run on Binder in a purpose-built JupyterHub environment.
+# If you are _not_ reading this there, please go to https://github.com/pangeo-forge/sandbox
+# and click the _**sandbox workspace**_ link in the README before proceeding.
 #
-# > Note: If you're having trouble with any of the above steps, check to see if your issue is already listed
+# > Note: If you're having trouble with the environment, check to see if your issue is already listed
 # > on https://github.com/pangeo-forge/sandbox/issues. If not, please open a new Issue describing your problem.
 
 # ## STEP 1: IMPORTS
@@ -22,7 +26,6 @@ import pandas as pd
 
 from pangeo_forge_recipes.patterns import ConcatDim, FilePattern, MergeDim
 from pangeo_forge_recipes.recipes import XarrayZarrRecipe
-
 
 # -
 
@@ -116,6 +119,7 @@ recipe = XarrayZarrRecipe(
 
 # # NEXT STEPS
 #
-#   1. Customize your `meta.yaml`. A template is provided in the file browser on the lefthand side of your screen.
+#   1. Customize your `meta.yaml`. A template is provided in the file browser on the righthand side of your screen.
 #   2. Submit your `recipe.py` and `meta.yaml` together as a Pull Request (PR) to https://github.com/pangeo-forge/staged-recipes
-#      For more detail on how to do this, please refer to the README located in https://github.com/pangeo-forge/sandbox.
+#      For more detail on how to do this, please refer part 3 of the 
+#      introduction tutorial https://pangeo-forge.readthedocs.io/en/latest/introduction_tutorial/intro_tutorial_part3.html
