@@ -25,5 +25,36 @@ RUN echo "Installing Mambaforge..." \
     && find ${CONDA_DIR} -follow -type f -name '*.pyc' -delete
 
 # Install deps.
-COPY ./environment.yml environment.yml
-RUN mamba env create --name ${CONDA_ENV} -f environment.yml
+RUN mamba env create --name ${CONDA_ENV} python=3.9 -y
+RUN mamba install -n ${CONDA_ENV} -y \
+    pangeo-forge-recipes>=0.9.0 \
+    aiohttp \
+    apache-beam \
+    boto3 \
+    cftime \
+    dask \
+    distributed \
+    fsspec>=2022.1.0 \
+    gcsfs>=2022.1.0 \
+    h5netcdf \
+    h5py>=3.3.0 \
+    hdf5 \
+    intake \
+    intake-xarray \
+    kerchunk>=0.0.6 \
+    matplotlib \
+    netcdf4 \
+    numcodecs \
+    numpy \
+    pandas \
+    pip \
+    prefect \
+    rasterio \
+    requests \
+    rechunker>=0.4.2 \
+    scipy \
+    s3fs>=2022.1.0 \
+    setuptools \
+    xarray>=0.18.0 \
+    zarr>=2.6.0
+ 
