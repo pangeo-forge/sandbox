@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
+  - pangeo-forge-recipes>=0.9.0
   - aiohttp
   - apache-beam
   - boto3
