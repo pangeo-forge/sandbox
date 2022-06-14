@@ -25,7 +25,7 @@ RUN echo "Installing Mambaforge..." \
     && find ${CONDA_DIR} -follow -type f -name '*.pyc' -delete
 
 # Install deps.
-RUN mamba env create --name ${CONDA_ENV} python=3.9
+RUN mamba create --name ${CONDA_ENV} python=3.9
 RUN mamba install -n ${CONDA_ENV} -y \
     pangeo-forge-recipes>=0.9.0 \
     aiohttp \
